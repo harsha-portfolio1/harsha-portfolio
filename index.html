@@ -4,9 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Harsha's Portfolio</title>
 
     <style>
+        @font-face {
+            font-family: 'Tangerine';
+            src: url('Tangerine-Regular.ttf') format('truetype');
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Tangerine';
+            src: url('Tangerine-Bold.ttf') format('truetype');
+            font-weight: 700;
+        }
+
         body {
             background: #f8f4ff;
             color: #493461;
@@ -22,7 +35,9 @@
 
         h1 {
             color: #7953a6;
-            font-size: 48px;
+            font-family: 'Tangerine', cursive;
+            font-size: 60px;
+            margin: 10px;
         }
 
         nav {
@@ -34,10 +49,19 @@
             color: #493461;
             text-decoration: none;
             margin: 8px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9567c5;
         }
 
         section {
             padding: 35px 15px;
+        }
+
+        h2 {
+            color: #7953a6;
         }
 
         .card {
@@ -46,6 +70,7 @@
             margin: 12px auto;
             max-width: 300px;
             border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(73, 52, 97, 0.08);
         }
 
         footer {
